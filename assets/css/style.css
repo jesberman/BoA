@@ -1,0 +1,19 @@
+body {
+  padding: 44px;
+  font-family: Roboto;
+  background-color: #17d1ff; }
+
+.general-text {
+  font-size: 24px; }
+
+.table-listing {
+  font-size: 34px; }
+
+#grocery-table-head {
+  font-size: 44px; }
+
+.table-row1 {
+  background-color: #00ffc8; }
+
+.table-row2 {
+  background-color: #ff7a52; }

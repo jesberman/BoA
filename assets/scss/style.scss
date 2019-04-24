@@ -1,0 +1,35 @@
+$teal-color:rgb(0, 255, 200);
+$pink-color: rgb(255, 122, 82);
+$lightBlue-color: rgb(23, 209, 255);
+$padding-size: 44px;
+$roboto-font: Roboto;
+$general-font-size: 24px;
+$header-font-size: 34px;
+$main-font-size: 44px;
+
+body{
+    padding: $padding-size;
+    font-family: $roboto-font;
+    background-color: $lightBlue-color;
+}
+
+.general-text{
+    font-size: $general-font-size;
+}
+
+.table-listing {
+    font-size: $header-font-size;
+}
+
+#grocery-table-head {
+    font-size: $main-font-size;
+}
+
+.table-row1{
+    background-color: $teal-color;
+}
+
+.table-row2 {
+    background-color: $pink-color;
+
+}
