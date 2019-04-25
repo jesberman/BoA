@@ -1,22 +1,68 @@
 <!DOCTYPE html>
+<!-- Document head, containing the title as well as links
+to the external CSS, to the jquery library, and to the "Roboto font" -->
 
 <head>
     <title>
         Bank of America Project
     </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto');
     </style>
-        
+
 </head>
 
+<!-- body of the document, containing a single div and a link to the 
+javascript file.  For this project, I decided to keep the HTML file
+distinctly light, and primarily build the page within the javascript
+file -->
+
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
 
     <div id="demo">
 
     </div>
+
+    <footer>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Jesse Berman</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
     <script src="assets/javascript/logic.js">
     </script>

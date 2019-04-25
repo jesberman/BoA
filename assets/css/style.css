@@ -1,19 +1,44 @@
-body {
+#demo {
   padding: 44px;
   font-family: Roboto;
   background-color: #17d1ff; }
 
 .general-text {
-  font-size: 24px; }
+  font-size: 24px;
+  color: black; }
+
+table {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black; }
+
+#top-row {
+  background-color: #f1f1f1; }
 
 .table-listing {
-  font-size: 34px; }
+  font-size: 34px;
+  padding-bottom: 60px;
+  color: black; }
 
 #grocery-table-head {
-  font-size: 44px; }
+  font-size: 44px;
+  color: black; }
 
 .table-row1 {
-  background-color: #00ffc8; }
+  background-color: #00ffc8;
+  padding: 44px;
+  height: 250px; }
 
 .table-row2 {
-  background-color: #ff7a52; }
+  background-color: #ff7a52;
+  padding: 44px;
+  height: 250px; }
+
+.svg-pic {
+  height: 150px; }
+
+footer {
+  padding-top: 150px;
+  padding-bottom: 45px;
+  width: 100%;
+  background-color: rgba(112, 107, 107, 0.144); }

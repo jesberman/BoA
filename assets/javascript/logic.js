@@ -68,7 +68,7 @@ table += "<h2 id='grocery-table-head'>Grocery Table</h2>";
 table += "<br>";
 table += "<table style='width:100%'>";
 
-table += "<tr>";
+table += "<tr id='top-row' style='text-align:center;'>";
 table += "<th class='table-listing'>";
 table += "Category";
 table += "</th>";

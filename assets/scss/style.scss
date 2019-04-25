@@ -1,13 +1,29 @@
+// The SCSS file.  At the top of the file, I declare
+// and define a group of variables that I later utilize for the 
+// different classes and IDs in my document
+
 $teal-color:rgb(0, 255, 200);
 $pink-color: rgb(255, 122, 82);
 $lightBlue-color: rgb(23, 209, 255);
+$black-color: rgb(0,0,0);
+$white-color: rgb(241, 241, 241);
 $padding-size: 44px;
 $roboto-font: Roboto;
 $general-font-size: 24px;
 $header-font-size: 34px;
 $main-font-size: 44px;
+$bottom-padding: 60px;
+$pic-size: 150px;
+$row-height: 250px;
+$border-color: black;
+$border-style: solid;
+$border-width: 3px;
+$footer-height: 150px;
+$footer-height2: 45px;
+$footer-width: 100%;
+$footer-background: rgba(112, 107, 107, 0.144);
 
-body{
+#demo{
     padding: $padding-size;
     font-family: $roboto-font;
     background-color: $lightBlue-color;
@@ -15,21 +31,50 @@ body{
 
 .general-text{
     font-size: $general-font-size;
+    color: $black-color;
+}
+
+table {
+    border-style:$border-style;
+    border-width: $border-width;
+    border-color: $border-color; 
+}
+
+#top-row {
+    background-color: $white-color;
 }
 
 .table-listing {
     font-size: $header-font-size;
+    padding-bottom: $bottom-padding;
+    color: $black-color;
+
 }
 
 #grocery-table-head {
     font-size: $main-font-size;
+    color: $black-color;
 }
 
 .table-row1{
     background-color: $teal-color;
+    padding: $padding-size;
+    height: $row-height;
 }
 
 .table-row2 {
     background-color: $pink-color;
+    padding: $padding-size;
+    height: $row-height;
+}
 
+.svg-pic {
+    height: $pic-size;
+}
+
+footer {
+    padding-top: $footer-height;
+    padding-bottom: $footer-height2;
+    width: $footer-width;
+    background-color: $footer-background;
 }
