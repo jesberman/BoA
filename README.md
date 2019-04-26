@@ -1,1 +1,3 @@
 # BoA
+
+            This is meant as a simple project to put together an interactive grocery list.  On the Home page, you will find a list of Groceries, with information that includes each item's name, brand, and the quantity that needs to be purchased.  To remove an item from the list, indicating that you have acquired it, simply press the green check mark next to the corresponding item, and it will then be removed from the list.

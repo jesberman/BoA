@@ -1,7 +1,27 @@
+.about-contact {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  width: 80%;
+  padding: 10%;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto; }
+
+.about-contact-header {
+  font-weight: bold;
+  color: black; }
+
+.delete {
+  display: none; }
+
 #demo {
-  padding: 44px;
+  padding: 204px;
+  padding-top: 60px;
   font-family: Roboto;
-  background-color: #17d1ff; }
+  background-color: #94d1e0; }
 
 .general-text {
   font-size: 24px;
@@ -25,17 +45,17 @@ table {
   color: black; }
 
 .table-row1 {
-  background-color: #00ffc8;
-  padding: 44px;
-  height: 250px; }
+  background-color: #7c89b1;
+  padding: 204px;
+  height: 120px; }
 
 .table-row2 {
-  background-color: #ff7a52;
-  padding: 44px;
-  height: 250px; }
+  background-color: #f1f1f1;
+  padding: 204px;
+  height: 120px; }
 
 .svg-pic {
-  height: 150px; }
+  height: 70px; }
 
 footer {
   padding-top: 150px;

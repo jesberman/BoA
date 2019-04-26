@@ -2,19 +2,20 @@
 // and define a group of variables that I later utilize for the 
 // different classes and IDs in my document
 
-$teal-color:rgb(0, 255, 200);
+$teal-color:rgb(124, 137, 177);
 $pink-color: rgb(255, 122, 82);
-$lightBlue-color: rgb(23, 209, 255);
+$lightBlue-color: rgb(148, 209, 224);
 $black-color: rgb(0,0,0);
 $white-color: rgb(241, 241, 241);
-$padding-size: 44px;
+$padding-size: 204px;
+$padding-top: 60px;
 $roboto-font: Roboto;
 $general-font-size: 24px;
 $header-font-size: 34px;
 $main-font-size: 44px;
 $bottom-padding: 60px;
-$pic-size: 150px;
-$row-height: 250px;
+$pic-size: 70px;
+$row-height: 120px;
 $border-color: black;
 $border-style: solid;
 $border-width: 3px;
@@ -22,9 +23,33 @@ $footer-height: 150px;
 $footer-height2: 45px;
 $footer-width: 100%;
 $footer-background: rgba(112, 107, 107, 0.144);
+$delete: none; 
+
+.about-contact {
+    border-style: solid; 
+    border-width: 3px; 
+    border-color: black;
+    margin-bottom: 200px;
+    margin-top: 100px; 
+    width: 80%; 
+    padding: 10%; 
+    background-color: white; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.about-contact-header {
+    font-weight: bold; 
+    color: black;
+}
+
+.delete {
+    display: $delete;
+}
 
 #demo{
     padding: $padding-size;
+    padding-top: $padding-top;
     font-family: $roboto-font;
     background-color: $lightBlue-color;
 }
@@ -48,7 +73,6 @@ table {
     font-size: $header-font-size;
     padding-bottom: $bottom-padding;
     color: $black-color;
-
 }
 
 #grocery-table-head {
@@ -63,7 +87,7 @@ table {
 }
 
 .table-row2 {
-    background-color: $pink-color;
+    background-color: $white-color;
     padding: $padding-size;
     height: $row-height;
 }
