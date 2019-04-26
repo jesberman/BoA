@@ -7,6 +7,8 @@ $pink-color: rgb(255, 122, 82);
 $lightBlue-color: rgb(148, 209, 224);
 $black-color: rgb(0,0,0);
 $white-color: rgb(241, 241, 241);
+$blue-color: blue;
+$black-color: black;
 $padding-size: 204px;
 $padding-top: 60px;
 $roboto-font: Roboto;
@@ -24,6 +26,10 @@ $footer-height2: 45px;
 $footer-width: 100%;
 $footer-background: rgba(112, 107, 107, 0.144);
 $delete: none; 
+
+.body-background {
+    background-color: $lightBlue-color;
+}
 
 .about-contact {
     border-style: solid; 
@@ -43,6 +49,14 @@ $delete: none;
     color: black;
 }
 
+.font-blue {
+    color: $blue-color;
+}
+
+.font-black {
+    color: $black-color;
+
+}
 .delete {
     display: $delete;
 }
@@ -100,5 +114,9 @@ footer {
     padding-top: $footer-height;
     padding-bottom: $footer-height2;
     width: $footer-width;
+    background-color: $footer-background;
+}
+
+.footer-background {
     background-color: $footer-background;
 }
